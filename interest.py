@@ -34,7 +34,7 @@ while   control==2:
         else:
             print("Input A or M")
     except ValueError:
-        print("Input proper %")
+        print("Input proper letter")
 while   control==3:
     try:
         time=int(input("Input number of periods (no digits after the decimal): "))

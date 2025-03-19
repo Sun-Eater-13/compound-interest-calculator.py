@@ -61,6 +61,6 @@ while   control==4:
 for i in range (1, time + 1):
     final=round(final * (1 + interest) + deposit, 2)
 if period=="A":
-    print(f"With initial investment {initial}, additional deposits {deposit} and {interest* 100}% interest rate after {time} years you will have {final}")
+    print(f"With initial investment {initial}, additional annual deposit {deposit} and {interest* 100}% interest rate after {time} years you will have {final}")
 else:
-    print(f"With initial investment {initial}, additional deposit {deposit} per period and {interest * 100}% interest rate after {time} months you will have {final}")
+    print(f"With initial investment {initial}, additional monthly deposit {deposit} and {interest * 100}% interest rate after {time} months you will have {final}")

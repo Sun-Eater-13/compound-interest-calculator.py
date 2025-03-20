@@ -52,6 +52,8 @@ while   control==4:
             if interest1==interest:
                 control+=1
                 interest=interest/100
+                if period=="M":
+                    interest=interest/12
             else:
                 print("Input proper number")
         else:
@@ -63,4 +65,4 @@ for i in range (1, time + 1):
 if period=="A":
     print(f"With initial investment {initial}, additional annual deposit {deposit} and {interest* 100}% interest rate after {time} years you will have {final}")
 else:
-    print(f"With initial investment {initial}, additional monthly deposit {deposit} and {interest * 100}% interest rate after {time} months you will have {final}")
+    print(f"With initial investment {initial}, additional monthly deposit {deposit} and {interest * 1200}% interest rate after {time} months you will have {final}")
